@@ -1,0 +1,31 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+
+		{
+			"type": "java",
+			"name": "Run WordSearch3D",
+			"request": "launch",
+			"mainClass": "WordSearch3D",
+			"projectName": "Project1"
+		},
+		{
+			"type": "java",
+			"name": "Run WordSearchApp",
+			"request": "launch",
+			"mainClass": "WordSearchApp",
+			"projectName": "Project1",
+			"args": "--grid=grid.txt --locations=locations.txt",
+			"vmArgs": "-Dprism.forceGPU=true"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch) - Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		}
+	]
+}
